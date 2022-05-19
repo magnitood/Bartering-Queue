@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:spectral_arrow",
+            "name": "minecraft:glowstone_dust",
             "functions": [
               {
                 "function": "minecraft:set_count",

@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:blackstone",
+            "name": "minecraft:magma_cream",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 16
+                "count": 6
               }
             ]
           }
