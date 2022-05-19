@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetX": 0,
+  "offsetY": 0,
+  "predicate": {
+    "dimension": "minecraft:overworld",
+    "block": {
+      "block": "minecraft:nether_portal"
+    }
+  }
+}

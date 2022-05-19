@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/ender_pearl",
+          "conditions": [
+            {
+              "entity": "this",
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "Times": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/obsidian",
+          "conditions": [
+            {
+              "entity": "this",
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "Times": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/string",
+          "conditions": [
+            {
+              "entity": "this",
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "Times": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/ender_pearl",
+          "conditions": [
+            {
+              "entity": "this",
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "Times": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/gravel",
+          "conditions": [
+            {
+              "entity": "this",
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "Times": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/normal",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "Times": {
+                  "min": 6,
+                  "max": 999
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
