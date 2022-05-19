@@ -1,5 +1,5 @@
 
-# Barterign Queue
+# Piglin Bartering Queue
 
 Make piglins barter in specific queue
 
