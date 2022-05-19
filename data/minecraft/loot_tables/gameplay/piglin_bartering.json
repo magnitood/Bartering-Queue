@@ -32,7 +32,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "test:bartering/string",
+          "name": "test:bartering/fire_res_splash",
           "conditions": [
             {
               "entity": "this",
@@ -45,26 +45,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "test:bartering/ender_pearl",
+          "name": "test:bartering/iron_nugget",
           "conditions": [
             {
               "entity": "this",
               "condition": "minecraft:entity_scores",
               "scores": {
                 "Times": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "test:bartering/gravel",
-          "conditions": [
-            {
-              "entity": "this",
-              "condition": "minecraft:entity_scores",
-              "scores": {
-                "Times": 5
               }
             }
           ]
