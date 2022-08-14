@@ -1,3 +1,5 @@
+# Archived: this repo is archived and no longer maintained, use [this mod](https://github.com/MaG-NITud3/BarteringManip) instead
+
 # Barterign Queue
 
 Make piglins barter in specific queue
